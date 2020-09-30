@@ -1,0 +1,24 @@
+{
+    "name": "@aqueduct/types",
+    "version": "0.1.0",
+    "description": "> TODO: description",
+    "author": "Nathan Gingrich <njgingrich@gmail.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "dist/index.js",
+    "directories": {
+        "dist": "dist",
+        "src": "src",
+        "test": "__tests__"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "tsc": "tsc",
+        "start": "tsc --watch"
+    },
+    "dependencies": {
+        "typescript": "^4.0.2"
+    }
+}
