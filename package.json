@@ -1,24 +1,32 @@
 {
-    "name": "@aqueduct/types",
-    "version": "0.1.0",
-    "description": "> TODO: description",
-    "author": "Nathan Gingrich <njgingrich@gmail.com>",
-    "homepage": "",
-    "license": "ISC",
-    "main": "dist/index.js",
-    "directories": {
-        "dist": "dist",
-        "src": "src",
-        "test": "__tests__"
-    },
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "tsc": "tsc",
-        "start": "tsc --watch"
-    },
-    "dependencies": {
-        "typescript": "^4.0.2"
-    }
+  "name": "@aqueduct-system/types",
+  "version": "0.1.0",
+  "description": "Typescript definitions for common Aqueduct models and datatypes.",
+  "author": "Nathan Gingrich <njgingrich@gmail.com>",
+  "homepage": "http://github.com/aqueduct-system/types",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqueduct-system/types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aqueduct-system/types/issues"
+  },
+  "directories": {
+    "dist": "dist",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {}
 }
